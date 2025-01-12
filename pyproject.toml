@@ -1,11 +1,11 @@
-[project]
-name = "python-template"
+[tool.poetry]
+name = "my-fastapi-project"
 version = "0.1.0"
-description = ""
+description = "FastAPI project"
 authors = ["Your Name <you@example.com>"]
-requires-python = ">=3.11"
-dependencies = [
-    "fastapi>=0.115.6",
-    "grpcio>=1.69.0",
-    "pydantic>=2.10.4",
-]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+grpcio = "^1.69.0"
+pydantic = "^2.10.4"
